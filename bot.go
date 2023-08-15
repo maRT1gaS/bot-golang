@@ -239,6 +239,11 @@ func (b *Bot) EditMessage(message *Message) error {
 	return b.client.EditMessage(message)
 }
 
+// DeleteMessage delete a message passed as an argument
+func (b *Bot) DeleteMessage(message *Message) error {
+	return b.client.DeleteMessage(message)
+}
+
 // GetUpdatesChannel returns a channel, which will be filled with events.
 // You can pass cancellable context there and stop receiving events.
 // The channel will be closed after context cancellation.
