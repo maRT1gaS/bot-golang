@@ -3,7 +3,7 @@
 # Golang interface for Mail.ru Instant Messengers bot API
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 [![CircleCI](https://circleci.com/gh/mail-ru-im/bot-golang.svg?style=svg)](https://circleci.com/gh/mail-ru-im/bot-golang)
-[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat)](https://pkg.go.dev/github.com/mail-ru-im/bot-golang)
+[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat)](https://pkg.go.dev/github.com/maRT1gaS/bot-golang)
 
  - *Brand new Bot API!*
 
@@ -19,7 +19,7 @@
 
 ## Install
 ```bash
-go get github.com/mail-ru-im/bot-golang
+go get github.com/maRT1gaS/bot-golang
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ Note a bot can only reply after the user has added it to his contacts list, or i
 ```go
 package main
 
-import "github.com/mail-ru-im/bot-golang"
+import "github.com/maRT1gaS/bot-golang"
 
 func main() {
     bot, err := botgolang.NewBot(BOT_TOKEN)
